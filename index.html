@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de CPF</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Verificador de CPF</h1>
+        <div class="form-group">
+            <label for="cpfInput">Digite o CPF:</label>
+            <input type="text" class="form-control" id="cpfInput" placeholder="123.456.789-00">
+        </div>
+        <button type="button" class="btn btn-primary" onclick="verificarCPF()">Verificar</button>
+        <div id="resultado"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
